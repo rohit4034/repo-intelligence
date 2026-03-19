@@ -1,0 +1,5 @@
+venv/
+test_projects/
+codebase_ingestion_engine/data/
+.env
+codebase_ingestion_engine\src\agents\__pycache__/

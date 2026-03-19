@@ -238,9 +238,11 @@ Generate human-readable descriptions of code functionality.
 
 This stage uses LLM reasoning based on structured metadata rather than raw code.
 
-LLMs used:
+LLMs used may include:
 
-Vertex AI
+Gemini
+
+NVIDIA NIM
 
 Input
 Function Metadata
@@ -381,3 +383,28 @@ text explanations
 
 code examples
 
+10. Future Enhancements
+
+Future improvements to the ingestion pipeline may include:
+
+Multi-Language Support
+
+Extending the plugin system for Java, Go, and JavaScript.
+
+Framework Detection
+
+Automatic detection of frameworks such as:
+
+Django
+
+FastAPI
+
+Flask
+
+Advanced Static Analysis
+
+Detection of performance issues and architectural anti-patterns.
+
+Continuous Ingestion
+
+Support for incremental ingestion when repositories change.
